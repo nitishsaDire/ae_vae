@@ -5,10 +5,12 @@ An **Autoencoder (AE)** is a neural network designed for unsupervised learning t
 For simple implementation on MNIST and code please refer vanilla_ae.py 
 ## RESULTS
 ![plot for digits-->2d points](images/1.png "plot for digits-->2d points")
+
 In the above image, the latent space is two-dimensional, enabling the visualization of digit images mapped as distinct clusters. Each cluster corresponds to a specific digit, illustrating how similar data points are grouped together in the latent representation.
 
 ![conversion from 1 digit to another](images/2.png "conversion from 1 digit to another")
 
+In the above image, digit images are reconstructed from their corresponding points in the latent space. Additionally, the intermediate images between two points in the 2D latent space are generated to demonstrate interpolation, highlighting the model's ability to smoothly transition between latent representations.
 
 
 #### Variational Autoencoder (VAE)

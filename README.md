@@ -5,7 +5,7 @@ An **Autoencoder (AE)** is a neural network designed for unsupervised learning t
 For simple implementation on MNIST and code please refer vanilla_ae.py 
 ## RESULTS
 ![plot for digits-->2d points](images/1.png "plot for digits-->2d points")
-![conversion from 1 digit to another](images/2png "conversion from 1 digit to another")
+![conversion from 1 digit to another](images/2.png "conversion from 1 digit to another")
 
 
 
